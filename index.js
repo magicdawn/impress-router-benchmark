@@ -39,6 +39,7 @@ var server = app.listen(0);
 var addr = '127.0.0.1:' + server.address().port;
 
 co(function*() {
+  console.time('impress-router');
   for (var i = 0, len = apiGitHub.length; i < len; i++) {
     var x = apiGitHub[i];
 
@@ -74,6 +75,7 @@ co(function*() {
         });
     });
   }
+  console.timeEnd('impress-router');
 }).then(() => {
   server.unref();
 }).catch(e => {
