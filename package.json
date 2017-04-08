@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/magicdawn/impress-router-benchmark#readme",
   "dependencies": {
-    "bluebird": "^2.10.1",
+    "bluebird": "^3.5.0",
     "co": "^4.6.0",
-    "impress-router": "^0.2.1",
-    "koa": "^1.0.0",
-    "superagent": "^1.4.0",
-    "supertest": "^1.1.0"
+    "impress-router": "^1.4.1",
+    "koa": "^2.2.0",
+    "superagent": "^3.5.2",
+    "supertest": "^3.0.0"
   }
 }
